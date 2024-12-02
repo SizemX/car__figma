@@ -1,0 +1,430 @@
+.container {
+  width: 1348px;
+  margin: auto;
+}
+.nav {
+  text-align: center;
+  width: 100%;
+}
+header {
+  margin-top: 40px;
+}
+.nav__wrapper {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  color: #3563e9;
+  font-size: 32px;
+  font-weight: 700;
+}
+.search {
+  padding: 12px 279px 12px 64px;
+  border-radius: 20px;
+  position: relative;
+  border: none;
+}
+.search__box {
+  position: relative;
+}
+.img--box {
+  display: flex;
+  gap: 64px;
+}
+.search__img {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  z-index: 99;
+}
+.custom {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+.hero {
+  margin-top: 32px;
+}
+.card-1 {
+  background-image: url(./assets/images/Ads\ 1.png);
+  background-position: center;
+  width: 640px;
+  padding-left: 21px;
+  padding-top: 24px;
+}
+.card__car {
+  padding-left: 137px;
+}
+.card__title {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+.card__desc {
+  color: white;
+  font-weight: 600;
+  padding-top: 16px;
+}
+.card-1__btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #3563e9;
+  color: white;
+  border-radius: 4px;
+}
+.card-1__btn:hover {
+  transform: scale(1.03);
+}
+.card-2 {
+  background-image: url(./assets/images/Ads\ 2.png);
+  background-position: center;
+  width: 640px;
+  padding-left: 21px;
+  padding-top: 24px;
+}
+.card-2__btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #54a6ff;
+  color: white;
+  border-radius: 4px;
+}
+.hero__wrapper {
+  display: flex;
+  gap: 32px;
+}
+.cart {
+  width: 582px;
+  padding: 24px 48px 24px 48px;
+  margin-top: 32px;
+  background-color: white;
+  border-radius: 10px;
+}
+body {
+  background-color: #f6f7f9;
+}
+.cart__top-box {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 16px;
+
+  align-items: center;
+}
+.info-title {
+  color: #1a202c;
+}
+.info__desc {
+  color: #90a3bf;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.info-box {
+  border-right: 1px solid #c3d4e966;
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+}
+.varient__wrapper {
+  display: flex;
+}
+.top-bottom-box {
+  margin-top: 44px;
+}
+.info__wrapper {
+  display: flex;
+  gap: 48px;
+}
+.car_card {
+  background-color: white;
+  width: 304px;
+  padding: 24px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.car__title {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+}
+.car_main {
+  color: #90a3bf;
+  padding-top: 4px;
+}
+.top__info {
+  display: flex;
+  justify-content: space-between;
+}
+.car__img {
+  padding-left: 5px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.car__info-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  justify-content: space-evenly;
+}
+.infos {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  color: #90a3bf;
+}
+.btn__box {
+  display: flex;
+  gap: 24px;
+
+  justify-content: space-around;
+}
+.price__car {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+}
+small {
+  font-size: 14px;
+  font-weight: 700;
+  color: #90a3bf;
+}
+.car__button {
+  background-color: #3563e9;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.car__Title {
+  color: #90a3bf;
+}
+.cars {
+  margin-top: 36px;
+}
+.cars__wrapper {
+  margin-top: 20px;
+}
+.shadow {
+  position: absolute;
+  left: 10px;
+
+  bottom: 160px;
+}
+.edit_vedio {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 304px;
+  /* height: 116px; */
+  size-adjust: 110px;
+}
+.car_card:hover .edit_vedio {
+  top: 0;
+}
+.cars__wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.car__button:hover {
+  background-color: #3562e99a;
+}
+.top-bottom {
+  animation: move;
+  animation-duration: 5s;
+  animation: infinite;
+}
+@keyframes move {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 5px;
+    left: 100px;
+  }
+  50% {
+    background-color: red;
+  }
+  75% {
+    background-color: blue;
+  }
+}
+.recomend {
+  margin-top: 96px;
+}
+.recomend__title {
+  color: #90a3bf;
+}
+.recomend__wrapper {
+  margin-top: 30px;
+  display: flex;
+  gap: 32px;
+}
+.footer__wrapper {
+  display: flex;
+  margin-top: 64px;
+}
+.ul__list {
+  display: flex;
+  gap: 60px;
+  margin-left: auto;
+}
+.end__button {
+  padding: 10px 20px;
+  background-color: #3563e9;
+  color: white;
+  border: none;
+  margin-left: 600px;
+  margin-top: 64px;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.end__button:hover {
+  background: -webkit-linear-gradient(
+    0deg,
+    transparent 0%,
+    rgba(224, 72, 205, 0.73) 0%,
+    #48abe0 100%
+  );
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+.footer__logo {
+  color: #3563e9;
+  font-size: 32px;
+  font-weight: 700;
+}
+.footer__logo-desc {
+  color: #13131399;
+  font-weight: 600;
+}
+a {
+  text-decoration-line: none;
+  color: #13131399;
+}
+li {
+  list-style: none;
+  line-height: 24px;
+}
+ul .ul__title {
+  font-size: 22px;
+
+  font-weight: 600;
+  color: #1a202c;
+}
+.end__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.car__img {
+  position: absolute; /* Yoki kerakli boshqa qiymat */
+  animation: car 3s infinite;
+  animation-direction: alternate;
+}
+
+.btn__box {
+  padding-top: 200px;
+}
+.shadow {
+  animation: shadowAnimation 3s infinite;
+  animation-direction: alternate;
+  position: absolute;
+}
+
+@keyframes shadowAnimation {
+  0% {
+    bottom: 160px;
+  }
+  25% {
+    bottom: 140px;
+  }
+  50% {
+    bottom: 160px;
+  }
+  75% {
+    bottom: 140px;
+  }
+}
+.end__button {
+  animation: button 5s infinite;
+
+  animation-direction: alternate;
+}
+@keyframes button {
+  0% {
+    top: 64px;
+  }
+  25% {
+    top: 100px;
+  }
+  50% {
+    top: 64px;
+  }
+  75% {
+    top: 100px;
+  }
+}
+
+@keyframes car {
+  0% {
+    top: 50px;
+    left: 5px;
+  }
+  25% {
+    top: 100px;
+    left: 5px;
+  }
+  50% {
+    left: 5px;
+    top: 50px;
+  }
+  75% {
+    left: 5px;
+    top: 100px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 327px;
+  }
+
+  .icon {
+    display: none;
+  }
+  .hero__wrapper {
+    flex-direction: column;
+  }
+  .card-2 {
+    display: none;
+  }
+  .varient__wrapper {
+    flex-direction: column;
+  }
+  .top-bottom-box {
+    margin: auto;
+    margin-left: 300px;
+  }
+  .cars__wrapper {
+    flex-direction: column;
+  }
+  .none__card {
+    display: none;
+  }
+  .recomend__wrapper {
+    flex-direction: column;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .end__button {
+    margin-left: 100px;
+  }
+}
